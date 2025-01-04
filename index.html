@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopNow - Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="styleheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+    <nav class="navbar navbar-expand-lg custom-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Traditional Trends</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <!-- Link to Section 1 -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section1">About</a>
+                    </li>
+                    <!-- Link to Section 2 -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section2">Product</a>
+                    </li>
+                    <!-- Link to Section 3 -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section3">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </header>
+
+  <!-- Section 1 -->
+  <section id="section1" class="section-1">
+    <h1 class="text-center">About Us</h1>
+    <p class="custom-font-2 text-center">Let's dress traditionally with modern looks. Keep your chin up, laddies, because what we wear will reflect who we are.we create styles that are reasonably priced. </p>
+</section>
+
+<section id="section2" class="section-2">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 card-spacing">
+                <div class="card">
+                    <img src="PICS\IMG_5433.jpg" class="card-img-top" alt="Card image">
+                    <div class="card-body">
+                        <h5 class="card-title">RM 30.00</h5>
+                        <button type="button" class="btn btn-secondary">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 card-spacing">
+                <div class="card">
+                    <img src="PICS\IMG_5429.jpg" class="card-img-top" alt="Card image">
+                    <div class="card-body">
+                        <h5 class="card-title">RM 35.00</h5>
+                        <button type="button" class="btn btn-secondary">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 card-spacing">
+                <div class="card">
+                    <img src="PICS\IMG_5431.jpg" class="card-img-top" alt="Card image">
+                    <div class="card-body">
+                        <h5 class="card-title ">RM30.00</h5>
+                        <button type="button" class="btn btn-secondary">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 card-spacing">
+                <div class="card">
+                    <img src="PICS\IMG_5432.jpg" class="card-img-top" alt="Card image">
+                    <div class="card-body">
+                        <h5 class="card-title">RM40.00</h5>
+                        <button type="button" class="btn btn-secondary">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 card-spacing">
+                <div class="card">
+                    <img src="PICS\IMG_5435.jpg" class="card-img-top" alt="Card image">
+                    <div class="card-body">
+                        <h5 class="card-title">RM35.00</h5>
+                        <button type="button" class="btn btn-secondary">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 card-spacing">
+                <div class="card">
+                    <img src="PICS\IMG_5436.jpg" class="card-img-top" alt="Card image">
+                    <div class="card-body">
+                        <h5 class="card-title">RM49.00</h5>
+                        <button type="button" class="btn btn-secondary">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section 3 -->
+<!-- <section id="section3" class="section-3">
+    <h1>Contact</h1>
+    <p>Get in touch with us.</p>
+</section> -->
+<!-- Contact Section -->
+<section class="section-3 py-10" id="section3">
+    <div class="container py-8">
+        <div class="row">
+            <!-- Contact Information Column -->
+            <div class="col-md-6 py-8">
+                <h2>Contact Information</h2>
+                <p><strong>Phone:</strong> +123 456 7890</p>
+                <p><strong>Email:</strong> contact@traditionalTrends.com</p>
+                <p><strong>Address:</strong> Entri Elevate</p>
+            </div>
+
+            <!-- Contact Form Column -->
+            <div class="col-md-6 custom-navbar py-8">
+                <h2>Get in Touch</h2>
+                <form action="#" method="post" class="contact-form py-8">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea class="form-control" id="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="text-center mt-4">
+        <p>&copy; 2025 Batch28. All Rights Reserved.</p>
+    </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,26 @@
+
+#color{
+    background-color: rgba(233, 98, 36, 0.774);
+    
+}
+
+.custom-navbar {
+    background-color: #c027a7; /* Orange color */
+}
+
+ 
+.custom-font-2 {
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    font-weight: light;
+}
+
+.section-1 {
+    background-color: #f8f9fa;
+}
+.section-2 {
+    background-color: #e9ecef;
+}
+.section-3 {
+    background-color: #dee2e6;
+}
